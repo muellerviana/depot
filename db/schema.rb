@@ -21,20 +21,4 @@ ActiveRecord::Schema.define(version: 2022_04_29_143057) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "shops", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "name"
-    t.string "cnpj"
-    t.string "tel"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
-    t.string "tel"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
